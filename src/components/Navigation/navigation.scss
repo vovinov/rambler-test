@@ -1,0 +1,22 @@
+
+.navigation {
+    margin: 39px 0;
+    text-align: center;
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: $black;
+    line-height: 16px;
+    cursor: pointer;
+    transition: all 0.3s;
+
+    &--right {
+        margin-right: 65px;
+    }
+
+    &:hover {
+        color: $purple;
+    }
+
+}

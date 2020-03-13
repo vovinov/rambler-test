@@ -1,0 +1,177 @@
+.card {
+    width: 100%;
+    background-color: $white;
+    box-shadow: 0px 3px 10px rgba($color:$black, $alpha: 0.2);
+    border-radius: 5px;
+    display: grid;
+    grid-template-rows: max-content 2fr 1fr;
+    grid-template-columns: 3fr 9fr;
+
+    @include md(grid-template-columns, 1fr 1fr);
+    @include md(grid-template-rows, max-content 1fr 100px);
+
+    @include xs(display, block);
+    @include xs(padding, 20px);
+}
+
+.card__block {
+    padding: 30px;
+
+    @include sm(padding, 15px);
+    @include xxs(padding, 10px);
+}
+
+.card__avatar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-row: 1 / -1;
+    grid-column: 1 / 2;
+    border-right: 1px solid $grey;
+
+    @include md(grid-row-start, 1);
+    @include md(grid-row-end, 2);
+    @include md(grid-column-start, 1);
+    @include md(grid-column-end, 2);
+
+    @include xs(border-right, none);
+    @include xs(border-bottom, 1px solid $grey);
+}
+
+.card__img {
+    border-radius: 50%;
+    margin-bottom: 23px;
+}
+
+.card__title {
+
+    font-size: 17px;
+    letter-spacing: 0.4px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.card__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-left: 1px solid $grey;
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+
+    @include md(grid-row-start, 1);
+    @include md(grid-row-end, 2);
+    @include md(grid-column-start, 2);
+    @include md(grid-column-end, 3);
+    @include md(align-items, center);
+
+    @include xs(border-left, none);
+}
+
+.card__subheading {
+    color: rgba($black, 0.5);
+    width: 225px;
+    text-align: left;   
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    margin-bottom: 13px; 
+
+    @include xs(text-align, center);
+    @include xs(width, auto);
+
+    &--margin { 
+        margin-right: 11px; 
+
+        @include xs(margin-right, 0);
+        @include xs(margin-bottom, 5px);
+        @include xs(text-align, center);
+    }
+}
+
+.card__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    @include md(display, block);
+    @include xs(text-align, center);
+}
+
+.card__description {
+    border-left: 1px solid $grey;
+    border-top: 1px solid $grey;
+    border-bottom: 1px solid $grey;
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+
+    @include md(grid-row-start, 2);
+    @include md(grid-row-end, 3);
+    @include md(grid-column-start, 1);
+    @include md(grid-column-end, 3);
+
+    @include xs(grid-row-start, 3);
+    @include xs(grid-row-end, 4);
+    @include xs(grid-column-start, 1);
+    @include xs(grid-column-end, 2);
+    @include xs(border-left, none);
+}
+
+.card__text {
+    column-count: 2;
+    line-height: 16px;
+    column-width: 250px;
+    column-gap: 30px;
+}
+
+.card__separator {
+    height: 15px;
+}
+
+.card__links {
+    border-left: 1px solid $grey;
+    grid-row: 3 / 4;
+    grid-column: 2 / 3;
+
+    @include md(grid-row-start, 3);
+    @include md(grid-row-end, 4);
+    @include md(grid-column-start, 1);
+    @include md(grid-column-end, 3);
+
+    @include xs(grid-row-start, 4);
+    @include xs(grid-row-end, 5);
+    @include xs(grid-column-start, 1);
+    @include xs(grid-column-end, 2);
+    @include xs(border-left, none);
+}
+
+.card__link {
+    margin-bottom: 10px;
+    @include xs(display, flex);
+    @include xs(flex-direction, column);
+
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.card__url {
+    width: 100%;
+    color: $black;
+    text-decoration: underline;
+    transition: all 0.3s;
+
+    &:hover {
+        color: $purple;
+    }
+}
+
+.section__button {
+    @include btn();
+}
+
+
+
