@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/rambler-test/static/css/main.4c733187.chunk.css",
+    "main.css": "/rambler-test/static/css/main.839d41b8.chunk.css",
     "main.js": "/rambler-test/static/js/main.1bff63e8.chunk.js",
     "main.js.map": "/rambler-test/static/js/main.1bff63e8.chunk.js.map",
     "runtime-main.js": "/rambler-test/static/js/runtime-main.cc92872f.js",
@@ -8,15 +8,15 @@
     "static/js/2.8b1377cd.chunk.js": "/rambler-test/static/js/2.8b1377cd.chunk.js",
     "static/js/2.8b1377cd.chunk.js.map": "/rambler-test/static/js/2.8b1377cd.chunk.js.map",
     "index.html": "/rambler-test/index.html",
-    "precache-manifest.3d14c0485fbf0ebd7024ec449b79cab2.js": "/rambler-test/precache-manifest.3d14c0485fbf0ebd7024ec449b79cab2.js",
+    "precache-manifest.b4b41be03264d67431e6b28a23a204b1.js": "/rambler-test/precache-manifest.b4b41be03264d67431e6b28a23a204b1.js",
     "service-worker.js": "/rambler-test/service-worker.js",
-    "static/css/main.4c733187.chunk.css.map": "/rambler-test/static/css/main.4c733187.chunk.css.map",
+    "static/css/main.839d41b8.chunk.css.map": "/rambler-test/static/css/main.839d41b8.chunk.css.map",
     "static/js/2.8b1377cd.chunk.js.LICENSE.txt": "/rambler-test/static/js/2.8b1377cd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.cc92872f.js",
     "static/js/2.8b1377cd.chunk.js",
-    "static/css/main.4c733187.chunk.css",
+    "static/css/main.839d41b8.chunk.css",
     "static/js/main.1bff63e8.chunk.js"
   ]
 }
