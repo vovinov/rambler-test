@@ -8,7 +8,7 @@ const Navigation = ({id, data, incId, decId}) => {
         <nav className="navigation">
             {id > 1 ?
             <Link
-                to={`/card/${id - 1}`}
+                to={`/rambler-test/card/${id - 1}`}
                 className="navigation__link navigation__link--right"
                 onClick={decId}>    
                 &lt; Предыдущая
@@ -17,7 +17,7 @@ const Navigation = ({id, data, incId, decId}) => {
             }   
             {id < data.length ?
             <Link
-                to={`/card/${id + 1}`}
+                to={`/rambler-test/card/${id + 1}`}
                 className="navigation__link"
                 onClick={incId}>       
                 Следующая &gt;
