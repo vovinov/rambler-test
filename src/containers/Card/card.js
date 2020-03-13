@@ -118,7 +118,7 @@ class Card extends Component {
                     <div className="section-row">
                         <h2 className="section__title">Карточка участника</h2>
                         <div className="section__line section__line--button"></div>
-                        <button className="section__button" onClick={() => history.push("/")}>Вернуться</button>
+                        <button className="section__button" onClick={() => history.push("/rambler-test")}>Вернуться</button>
                     </div>
                     {card && this.renderCard(card)}
                     <Navigation 

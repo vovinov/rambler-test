@@ -28,12 +28,12 @@ const Table = () => {
                         {data.map((man) => {
                             const {id, surname, name, email} = man;
                             return (
-                                <tr className="table__row" onClick={() => history.push(`/card/${id}`)} key={id}>
+                                <tr className="table__row" onClick={() => history.push(`/rambler-test/card/${id}`)} key={id}>
                                     <td className="table__cell table__cell--surname">{surname}</td>
                                     <td className="table__cell table__cell--name">{name}</td>
                                     <td className="table__cell table__cell--email">{email}</td>
                                     <td className="table__cell table__cell--right table__cell--button">
-                                        <button className="table__button" onClick={() => history.push(`/card/${man.id}`)}>Посмотреть</button>
+                                        <button className="table__button" onClick={() => history.push(`/rambler-test/card/${man.id}`)}>Посмотреть</button>
                                     </td>
                                 </tr>  
                             )
