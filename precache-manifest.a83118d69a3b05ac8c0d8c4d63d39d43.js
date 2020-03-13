@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4b0a9ce8c3310fc05586ad806de865a8",
+    "revision": "7abc537de3798525c1aa5c36b63c686e",
     "url": "/rambler-test/index.html"
   },
   {
-    "revision": "00d8731a6500172ec7c6",
-    "url": "/rambler-test/static/css/main.4365c05c.chunk.css"
+    "revision": "c0096f2a649dc647c276",
+    "url": "/rambler-test/static/css/main.4c733187.chunk.css"
   },
   {
     "revision": "9be50f460fd1bf2527f1",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/rambler-test/static/js/2.8b1377cd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "00d8731a6500172ec7c6",
+    "revision": "c0096f2a649dc647c276",
     "url": "/rambler-test/static/js/main.f06f0865.chunk.js"
   },
   {

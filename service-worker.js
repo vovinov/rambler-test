@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/rambler-test/precache-manifest.75ae95f318a884cd41f92ac6dd0b7d74.js"
+  "/rambler-test/precache-manifest.a83118d69a3b05ac8c0d8c4d63d39d43.js"
 );
 
 self.addEventListener('message', (event) => {
