@@ -76,9 +76,9 @@ th, td {
     line-height: 16px;
 
     &--heading {
+        color: rgba($black, 0.5);
         font-size: 14px;
         text-transform: uppercase;
-        opacity: 50%;
         line-height: 16px;
         letter-spacing: 0.4px;
         height: auto;
